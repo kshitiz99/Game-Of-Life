@@ -40,7 +40,7 @@ function drawGrid() {
                     const blue = 255 - red;
                     ctx.fillStyle = `rgb(${red}, 0, ${blue})`;
                 } else {
-                    ctx.fillStyle = 'rgba(251, 68, 224, 1)';
+                    ctx.fillStyle = 'rgba(198, 190, 69, 1)';
                 }
             } else {
                 ageGrid[row][col] = 0; // Reset age if cell is dead
